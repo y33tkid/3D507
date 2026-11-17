@@ -16,7 +16,7 @@ export const SHORTCUTS: [string, string][] = [
 ];
 
 /** Global keyboard shortcuts. Ignored while typing in a field. */
-export function useKeyboardShortcuts(searchRef: React.RefObject<HTMLInputElement>): void {
+export function useKeyboardShortcuts(searchRef: React.RefObject<HTMLInputElement | null>): void {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement | null;

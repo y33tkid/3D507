@@ -14,7 +14,8 @@ export function Viewer({ mechanism }: { mechanism: MechanismDefinition }) {
 
   return (
     <Canvas
-      shadows
+      // three 0.187 removed PCFSoftShadowMap (fiber's `shadows` default); request PCF explicitly.
+      shadows="percentage"
       dpr={[1, 2]}
       camera={{ fov: 40, near: 0.05, far: 200, position: [4, 3, 6] }}
       gl={{ antialias: true, preserveDrawingBuffer: false }}
