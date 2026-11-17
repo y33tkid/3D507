@@ -32,7 +32,7 @@ exact model you can orbit, slow down, reverse and scrub frame by frame.
 
 ## Getting started
 
-Requires Node 20.11+ (see `.nvmrc`).
+Requires Node 22+ (see `.nvmrc`).
 
 ```bash
 npm install

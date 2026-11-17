@@ -5,7 +5,7 @@
   "description": "Interactive 3D models of Henry T. Brown's 507 Mechanical Movements.",
   "type": "module",
   "engines": {
-    "node": ">=20.11"
+    "node": ">=22"
   },
   "scripts": {
     "dev": "vite",
