@@ -1,0 +1,57 @@
+/*
+ * Design tokens — the only place raw colours, sizes and fonts are defined.
+ * See STYLEGUIDE.md › Visual language. Role colours mirror src/core/roles.ts.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Surfaces (blueprint navy) */
+  --bg: #0d1520;
+  --surface-1: #121d2b;
+  --surface-2: #182638;
+  --surface-3: #203249;
+  --line: #24384f;
+  --line-strong: #34506f;
+
+  /* Text */
+  --text: #e6edf5;
+  --text-muted: #9aabbf;
+  --text-faint: #6b7d92;
+
+  /* Accent = driver amber (the "ink" of the interface) */
+  --accent: #f2a33a;
+  --accent-soft: rgb(242 163 58 / 14%);
+  --focus: #7cc4ff;
+
+  /* Part roles */
+  --role-driver: #f2a33a;
+  --role-intermediate: #4f9cf0;
+  --role-output: #3fc28a;
+  --role-frame: #8592a3;
+
+  /* Type */
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono',
+    monospace;
+  --fs-xs: 0.72rem;
+  --fs-sm: 0.82rem;
+  --fs-md: 0.94rem;
+  --fs-lg: 1.15rem;
+  --fs-xl: 1.45rem;
+
+  /* Spacing (4px grid) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --sidebar-w: 280px;
+  --panel-w: 360px;
+  --header-h: 52px;
+  --shadow: 0 8px 30px rgb(0 0 0 / 35%);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

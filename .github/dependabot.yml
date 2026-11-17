@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      three-stack:
+        patterns: ['three', '@types/three', '@react-three/*']
+      tooling:
+        patterns: ['eslint*', '@eslint/*', 'typescript*', 'prettier', 'vite', 'vitest', '@vitejs/*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
